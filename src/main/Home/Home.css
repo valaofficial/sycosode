@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+}
+
+#introSection{
+    background: url("../../includes/img/introbg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    height: 100vh;
+    background-color: #000000b4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.introImgDiv{
+    width: 40em;
+}
+
+.introImg{
+    width: 100%;
+}
+
+.introInfo{
+    color: #ffffff;
+}
+
+.introInfo h1{
+    font-size: 4em;
+    margin-bottom: 0.25em;
+}
+
+.selectBtn{
+    border-radius: 0.5em;
+    width: 10em;
+    padding: 1em;
+    height: 4em;
+    border: 3px solid #eb7c2a;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms ease-in-out;
+}
+
+.selectBtn:hover{
+    background-color: #eb7c2a;
+}
+
+.selectBtn a{
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+/* ourWorkSection */
+
+#ourWorkSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.ourWorkSectionTxt h1{
+    font-size: 3em;
+}
+
+.ourWorkSectionTxt h1 span{
+    color: #3655a5;
+}
+
+.ourWorkCardDiv{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 3em;
+}
+
+.ourWorkCard{
+    width: 13em;
+    height: 15em;
+    border-radius: 1em;
+    background-color: #c4c4c4;
+}
+
+/* ourWorkSection */
